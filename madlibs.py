@@ -21,6 +21,6 @@ print("Luckily my {} packed me a jacket to keep me {}".format(relative, adj3))
 print("When I land on the planet i will {} for joy".format(verb))
 print("I am {} to walk on another planet".format(adj4))
 print("I could not be more {} for this trip".format(adj5))
-print("")
+print("\n\n Thankyou {} for your time !!! see you again in some other program !".format(name))
 
 
