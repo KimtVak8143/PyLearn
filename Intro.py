@@ -1,0 +1,6 @@
+print("Hello World")
+print("My name is :\n")
+print("M\  /M   OOO    H   H   IIIII   TTTTT")
+print("M \/ M  O   0   HHHHH     I       T")
+print("M    M  O   0   HHHHH     I       T")
+print("M    M   OOO    H   H   IIIII     T")
