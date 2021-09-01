@@ -21,7 +21,7 @@ def run_test(questions):
         answer = input(qn.prompt)
         if answer == qn.answer:
             score += 1
-    print("You Got {}/{}".format(score,len(questions)))
+    print("You Got {}/{}".format(score, len(questions)))
 
 
 run_test(questions)
