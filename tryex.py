@@ -1,7 +1,7 @@
 # Concept of Try and Except
 
 try:
-    valu = 10/0   # triggers ZeroDivision error
+    value = 10/0   # triggers ZeroDivision error
     number = int(input("Enter a number"))
     print(number)
 except ZeroDivisionError as err:
