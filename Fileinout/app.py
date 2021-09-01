@@ -14,4 +14,8 @@
 
 
 # Writing
+# fp = open("data.txt", "a")  # For append
+fp = open("new.txt", "w")  # For writing
+fp.write("\nKelly - Customer service")
 
+fp.close()
