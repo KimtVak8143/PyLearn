@@ -13,3 +13,15 @@ questions = [
     Question(question_prompts[1], "b"),
     Question(question_prompts[2], "c"),
 ]
+
+
+def run_test(questions):
+    score = 0
+    for qn in questions:
+        answer = input(qn.prompt)
+        if answer == qn.answer:
+            score += 1
+    print("You Got {}/{}".format(score,len(questions)))
+
+
+run_test(questions)
